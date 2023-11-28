@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-right: 25px;
+  background-color: #0E1D41;
+  position: fixed;
+}
+
+nav {
+  width: 70%;
+}
+nav .imgdiv {
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.number {
+  width: 15%;
+  text-align: center;
+  background-color: #FD784F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.collapseDiv a {
+  color: white;
+}
